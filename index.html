@@ -38,22 +38,46 @@
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <h1>Descubra como uma mãe sedentária eliminou 3,4kg em apenas 7 dias com um método simples e
+                    <h1>Descubra como uma mãe sedentária eliminou 8kg em apenas 21 dias com um método simples e
                         acessível!</h1>
                     <p>Sem academia, sem dietas restritivas e sem passar fome!</p>
                     <a href="#cta" class="btn btn-primary cta-btn shadow-lg mt-3">Quero Secar Agora!</a>
                 </div>
-                <div class="col-lg-6">
-                    <div class="video-wrapper">
-                        <video controls style="width:100%; height:100%;">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="video-wrapper" style="max-width:360px; width:100%; aspect-ratio:9/16; height:520px;">
+                        <video controls style="width:100%; height:100%; object-fit:cover;" poster="/assets/img/video-thumb.jpg">
                             <source src="assets/video/emagrecimento.mp4" type="video/mp4">
                             Seu navegador não suporta o elemento de vídeo.
                         </video>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+                </div>
+                </div>
+                </section>
+
+                <style>
+                .video-wrapper {
+                  position: relative;
+                  width: 100%;
+                  max-width: 360px;
+                  aspect-ratio: 9/16;
+                  height: 520px;
+                  overflow: hidden;
+                  border-radius: 20px;
+                  box-shadow: 0 6px 32px rgba(33, 191, 93, 0.13);
+                  border: 3px solid #101c1233;
+                  background: #000;
+                }
+
+                .video-wrapper video {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  object-fit: cover;
+                }
+                </style>
 
 
     <!-- Results Slider Section -->
